@@ -17,6 +17,7 @@ public class TestClass extends TestCase {
 
 	public int sub(int a, int b) {
 		return a - b;
+		
 	}
 
 	@Test
