@@ -36,8 +36,8 @@ pipeline{
                 rtMavenDeployer(
                     id: 'deployer',
                     serverId: 'qwertyAyushi',
-                    releaseRepo: 'jfrog-ayushi-key',
-                    snapshotRepo: 'jfrog-ayushi-key'
+                    releaseRepo: ' jfrog-practic-ayushikey',
+                    snapshotRepo: ' jfrog-practic-ayushikey'
                 )
                 rtMavenRun(
                     pom: 'pom.xml',
